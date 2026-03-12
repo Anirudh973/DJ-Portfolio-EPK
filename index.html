@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anirudh - DJ & Producer EPK</title>
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+        rel="stylesheet">
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        black: '#000000',
+                        accent: 'var(--accent-color, #39FF14)',
+                        secondary: '#00FFFF'
+                    },
+                    fontFamily: {
+                        mono: ['"Space Mono"', 'monospace']
+                    },
+                    borderWidth: {
+                        '3': '3px'
+                    }
+                }
+            }
+        }
+    </script>
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+
+<body class="bg-black text-white font-mono selection:bg-accent selection:text-black">
+
+    <!-- Header / Navbar -->
+    <header
+        class="fixed top-0 w-full z-50 border-b-3 border-accent bg-black p-4 flex justify-center items-center transition-colors duration-300">
+        <nav class="pointer-events-auto overflow-x-auto w-full text-center">
+            <ul class="flex justify-center flex-wrap gap-x-6 gap-y-2 text-xs md:text-sm font-bold uppercase whitespace-nowrap">
+                <li><a href="#about" class="hover:text-accent transition-colors">About</a></li>
+                <li><a href="#music" class="hover:text-accent transition-colors">The Crate</a></li>
+                <li><a href="#gigs" class="hover:text-accent transition-colors">Past Gigs</a></li>
+                <li><a href="#gallery" class="hover:text-accent transition-colors">Gallery</a></li>
+                <li><a href="#contact" class="hover:text-accent transition-colors">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero" class="min-h-screen relative flex items-center justify-center p-4 border-b-3 border-accent mt-16 md:mt-20">
+        <!-- Video Background -->
+        <div class="absolute inset-0 w-full h-full bg-black/60 z-10"></div>
+        <video id="hero-video" class="absolute inset-0 w-full h-full object-cover z-0 opacity-50 grayscale" autoplay
+            loop muted playsinline></video>
+
+        <div
+            class="z-20 w-full max-w-6xl mx-auto px-4 flex flex-col md:flex-row items-center justify-between mt-16 group gap-12">
+            <div class="text-center md:text-left mb-12 md:mb-0 md:w-1/2 flex flex-col items-center md:items-start">
+                <h1 id="hero-title"
+                    class="text-6xl md:text-8xl lg:text-9xl font-bold text-transparent bg-clip-text bg-white"
+                    style="-webkit-text-stroke: 2px var(--accent-color); filter: drop-shadow(4px 4px 0px rgba(0,255,255,0.5));">
+                    ANIRUDH</h1>
+                <h2 id="hero-subtitle"
+                    class="text-xl md:text-3xl mt-6 mb-8 text-white uppercase tracking-widest bg-black inline-block px-4 py-2 border-l-4 border-accent">
+                    SELECTA // PRODUCER</h2>
+
+                <div
+                    class="bg-black border-l-4 border-accent pl-4 py-3 shadow-[8px_8px_0px_var(--accent-color)] text-left w-full max-w-lg mt-4">
+                    <p id="hero-intro" class="text-accent font-bold uppercase tracking-widest text-sm mb-2"></p>
+                    <p id="hero-bio" class="text-gray-300 text-sm leading-relaxed"></p>
+                </div>
+            </div>
+
+            <!-- Profile Info Widget -->
+            <div class="w-full md:w-1/2 max-w-md flex flex-col items-center md:items-end">
+                <div
+                    class="w-full max-w-sm border-3 border-accent p-2 bg-black/80 backdrop-blur shadow-[8px_8px_0px_var(--accent-color)] transition-shadow duration-300 hover:shadow-[12px_12px_0px_var(--secondary-color)]">
+                    <img id="hero-image" src="" alt="Profile Photo"
+                        onerror="this.src='data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MDAiIGhlaWdodD0iNDAwIiB2aWV3Qm94PSIwIDAgNDAwIDQwMCI+PHJlY3Qgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgZmlsbD0iIzIyMiIvPjx0ZXh0IHg9IjUwJSIgeT0iNTAlIiBmb250LWZhbWlseT0ibW9ub3NwYWNlIiBmb250LXNpemU9IjI0IiBmaWxsPSIjNzcxIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIj5bIFBST0ZJTEUgUEhPVE8gXTwvdGV4dD48L3N2Zz4='"
+                        class="w-full h-auto aspect-square object-cover grayscale hover:grayscale-0 transition-all duration-300 border-2 border-zinc-800">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about"
+        class="py-24 border-b-3 border-accent bg-zinc-950 transition-colors duration-300 relative overflow-hidden">
+        <div
+            class="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0IiBoZWlnaHQ9IjQiPgo8cmVjdCB3aWR0aD0iNCIgaGVpZ2h0PSI0IiBmaWxsPSIjMDAwIiBmaWxsLW9wYWNpdHk9IjAiPjwvcmVjdD4KPHJlY3Qgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0iIzIyMiI+PC9yZWN0Pgo8L3N2Zz4=')] opacity-50 pointer-events-none">
+        </div>
+        <div class="max-w-6xl mx-auto px-4 relative z-10">
+            <div class="flex flex-col lg:flex-row gap-16">
+                <div class="lg:w-1/2">
+                    <h2 class="text-5xl font-bold mb-8 uppercase border-l-4 border-accent pl-6 select-none shadow-[8px_8px_0px_var(--accent-color)] bg-black inline-block px-4 py-2"
+                        id="about-heading"></h2>
+                    <div id="about-text" class="mt-8 border-l-2 border-zinc-800 pl-6 border-dashed"></div>
+                </div>
+                <div class="lg:w-1/2 flex flex-col justify-start">
+                    <div
+                        class="mb-12 bg-black border-3 border-accent p-8 shadow-[8px_8px_0px_var(--accent-color)] hover:-translate-y-2 hover:-translate-x-2 hover:shadow-[16px_16px_0px_var(--accent-color)] transition-all duration-300">
+                        <h3
+                            class="text-2xl font-bold uppercase mb-6 text-white border-b-2 border-zinc-800 pb-2 flex items-center">
+                            <span class="w-3 h-3 bg-accent inline-block mr-3"></span>Genres</h3>
+                        <ul id="about-genres" class="mt-4"></ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Genre Crate Section -->
+    <section id="music"
+        class="py-24 border-b-3 border-accent transition-colors duration-300 relative bg-[url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0IiBoZWlnaHQ9IjQiPgo8cmVjdCB3aWR0aD0iNCIgaGVpZ2h0PSI0IiBmaWxsPSIjMDAwIj48L3JlY3Q+CjxyZWN0IHdpZHRoPSIxIiBoZWlnaHQ9IjEiIGZpbGw9IiMxMTEiPjwvcmVjdD4KPC9zdmc+')]">
+        <div class="max-w-6xl mx-auto px-4">
+            <h2
+                class="text-5xl font-bold mb-12 uppercase border-l-4 border-accent pl-6 select-none shadow-accent inline-block text-shadow">
+                The Crate</h2>
+
+            <!-- SoundCloud Player Widget -->
+            <div
+                class="w-full max-w-4xl mx-auto mb-16 border-3 border-accent p-2 bg-black/80 backdrop-blur shadow-[8px_8px_0px_var(--accent-color)] transition-shadow duration-300 hover:shadow-[12px_12px_0px_var(--secondary-color)]">
+                <iframe id="hero-sc-player" width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay"
+                    src=""></iframe>
+            </div>
+
+            <div id="crate-grid" class="grid grid-cols-1 sm:grid-cols-2 gap-12 max-w-4xl mx-auto">
+                <!-- Rendered dynamically via JS -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Gig Timeline Section -->
+    <section id="gigs" class="py-24 border-b-3 border-accent transition-colors duration-300"
+        style="background-image: linear-gradient(to right, #1a1a1a 1px, transparent 1px), linear-gradient(to bottom, #1a1a1a 1px, transparent 1px); background-size: 50px 50px;">
+        <div class="max-w-5xl mx-auto px-4">
+            <div class="bg-black inline-block p-2 mb-16 border-l-4 border-accent">
+                <h2 class="text-5xl font-bold uppercase select-none">Gigs</h2>
+            </div>
+            <div class="relative border-l-4 border-accent pl-8 md:pl-16 py-8" id="gig-timeline">
+                <!-- Rendered dynamically via JS -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Media Gallery Section -->
+    <section id="gallery" class="py-24 border-b-3 border-accent transition-colors duration-300 bg-black">
+        <div class="max-w-7xl mx-auto px-4">
+            <h2
+                class="text-5xl font-bold mb-16 uppercase border-l-4 border-accent pl-6 select-none bg-black inline-block mix-blend-difference">
+                Gallery</h2>
+            <div id="gallery-grid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10">
+                <!-- Rendered dynamically via JS -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact & Socials Section -->
+    <section id="contact" class="py-24 border-t-3 border-accent bg-black transition-colors duration-300"
+        style="background-image: radial-gradient(circle at center, #111 0%, #000 100%);">
+        <div class="max-w-4xl mx-auto px-4 text-center">
+            <h2
+                class="text-5xl font-bold mb-12 uppercase select-none text-accent tracking-widest text-shadow border-b-4 border-accent inline-block pb-4">
+                Contact</h2>
+            <p class="text-xl mb-12 font-bold uppercase tracking-widest text-gray-400">For bookings and inquiries</p>
+            <div class="flex flex-col justify-center items-center gap-4" id="social-links">
+                <!-- Rendered dynamically via JS -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Application Script -->
+    <script src="assets/app.js"></script>
+    <script>
+        document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+</body>
+
+</html>
