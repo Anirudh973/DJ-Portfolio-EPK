@@ -6,12 +6,12 @@
     "title": "OPYWEN",
     "video": "assets/videos/hero-bg.mp4",
     "image": "assets/images/WhatsApp Image 2026-03-13 at 3.36.57 AM.jpeg",
-    "bio": "Anirudh is a Delhi-based multiformat DJ bridging the sounds of global club cultures."
+    "bio": "OPYWEN is a Delhi-based multiformat DJ bridging the sounds of global club cultures."
   },
   "about": {
     "heading": "The Vision & Vibe",
     "paragraphs": [
-      "Anirudh operating under the alias OPYWEN, Anirudh is a multi-format DJ dedicated to reclaiming the dancefloor. Building on a foundation of underground house parties, OPYWEN curates immersive, high-energy sets that bridge global club cultures. The philosophy behind the decks is a balancing act: reading the room to give the audience what they want, while aggressively introducing them to the tracks they never knew they needed.",
+      "Anirudh operating under the alias OPYWEN formerly known as Aniirude, OPYWEN is a multi-format DJ dedicated to reclaiming the dancefloor. Building on a foundation of underground house parties, OPYWEN curates immersive, high-energy sets that bridge global club cultures. The philosophy behind the decks is a balancing act: reading the room to give the audience what they want, while aggressively introducing them to the tracks they never knew they needed.",
       "Drawing structural inspiration from The Beatles and David Bowie’s refusal to stagnate, OPYWEN treats every set as a continuous evolution. By channeling the visceral, community-driven energy of artists like Yung Singh, Kampai, Fred again.., and Mochakk, OPYWEN blends Amapiano, Baile Funk, UKG, house and Techno into a singular, brutalist soundscape."
     ],
     "genres": [
@@ -48,13 +48,20 @@
       "venue": "BeeYoung Brewgarden",
       "location": "Malviya Nagar, Delhi",
       "image": "assets/images/632558811_17853266442654550_5678065238418047535_n.jpeg"
+    },
+    {
+      "date": "2026-04-26",
+      "venue": "Uncle's Delhi",
+      "location": "Vasant Vihar, Delhi",
+      "image": "assets/images/uncles.jpg"
     }
   ],
   "gallery": [
     "assets/images/WhatsApp Image 2026-03-13 at 3.36.58 AM.jpeg",
     "assets/images/l.jpeg",
     "assets/images/WhatsApp Image 2026-03-13 at 4.08.45 AM.jpeg",
-    "assets/images/WhatsApp Image 2026-03-13 at 3.39.37 AM.jpeg"
+    "assets/images/WhatsApp Image 2026-03-13 at 3.39.37 AM.jpeg",
+    "assets/images/unclesdj.jpeg"
   ],
   "contact": {
     "email": "aniirudegigs@gmail.com",
