@@ -19,7 +19,7 @@
       "Baile Funk",
       "House",
       "Techno",
-      "UKG"
+      "Disco"
     ]
   },
   "mixes": [
@@ -53,19 +53,38 @@
       "date": "2026-04-26",
       "venue": "Uncle's Delhi",
       "location": "Vasant Vihar, Delhi",
+      "image": "assets/images/WhatsApp Image 2026-08-02 at 18.18.18.jpeg"
+    },
+     {
+      "date": "2026-06-13",
+      "venue": "Odella",
+      "location": "Green Park, Delhi",
+      "image": "assets/images/1785672494458.publer.com.jpg"
+    },
+    {
+      "date": "2026-06-21",
+      "venue": "Uncle's Delhi",
+      "location": "Vasant Vihar, Delhi",
       "image": "assets/images/uncles.jpg"
-    }
+    },
+    {
+      "date": "2026-06-13",
+      "venue": "Dvara Bar and Dining",
+      "location": "Kailash Colony, Delhi",
+      "image": "assets/images/WhatsApp Image 2026-08-02 at 18.22.54.jpeg"
+    },
   ],
   "gallery": [
     "assets/images/WhatsApp Image 2026-03-13 at 3.36.58 AM.jpeg",
     "assets/images/l.jpeg",
     "assets/images/WhatsApp Image 2026-03-13 at 4.08.45 AM.jpeg",
-    "assets/images/WhatsApp Image 2026-03-13 at 3.39.37 AM.jpeg",
-    "assets/images/unclesdj.jpeg"
+    "assets/images/0A0A1428.jpg",
+    "assets/images/unclesdj.jpeg",
+    "assets/images/1.jpeg"
   ],
   "contact": {
     "email": "opywengigs@gmail.com",
-    "instagramHandle": "@aniirude",
+    "instagramHandle": "@aniirude_",
     "instagramUrl": "https://www.instagram.com/aniirude_?igsh=ZDBnZjA5cW9ybDBk&utm_source=qr"
   }
 }
